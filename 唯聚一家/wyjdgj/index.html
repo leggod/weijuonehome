@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<title>唯聚一家</title>
+<link href="css/base.css" type="text/css" rel="stylesheet"/>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+<script src="js/jquery-1.8.3.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/swipe.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="content"  style=" margin-top:0px">
+  <div class="main">
+  <div id='mySwipe' style='max-width:500px;margin:0 auto' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><img src="images/sy_banner.png"/></div>
+    <div><img src="images/sy_banner.png"/></div>
+    <div><img src="images/sy_banner.png"/></div>
+  </div>
+</div>
+<script>
+// pure JS
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+  // startSlide: 4,
+   auto: 3000,
+   continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+   callback: function(index, element) {
+	//alert(index);
+   },
+  // transitionEnd: function(index, element) {}
+});
+
+// with jQuery
+// window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+</script>
+  </div>
+</div>
+
+<ul class="sy_list">
+  <li class="sy_i1"><a href="xdd.html"><div><img src="images/sy_i1.png"/><span class="xin">新</span></div><p>订单管理</p></a></li>
+  <li class="sy_i2"><a href="pro_list.html"><img src="images/sy_i2.png"/><p>库存商品</p></a></li>
+  <li class="sy_i3"><a href="kehu.html"><img src="images/sy_i3.png"/><p>我的客户</p></a></li>
+  <li class="sy_i4"><a href="news.html"><div><img src="images/sy_i4.png"/><span class="xin0">新</span></div><p>消息中心</p></a></li>
+</ul>
+
+<script> 
+  window.onload=function(){
+	// 获取窗口宽度
+	if (window.innerWidth)
+	winWidth = window.innerWidth;
+	else if ((document.body) && (document.body.clientWidth))
+	winWidth = document.body.clientWidth;
+	// 获取窗口高度
+	if (window.innerHeight)
+	winHeight = window.innerHeight;
+	else if ((document.body) && (document.body.clientHeight))
+	winHeight = document.body.clientHeight;
+	// 通过深入 Document 内部对 body 进行检测，获取窗口大小
+	if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth)
+	{
+	winHeight = document.documentElement.clientHeight;
+	winWidth = document.documentElement.clientWidth;
+	}
+
+	var pad=(((winHeight-184)*1/2-96)*1/2);
+	$('.sy_list li a').css({'padding-top':pad,'padding-bottom':pad});
+	}
+  </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ -webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -o-font-smoothing:antialiased; font-smoothing:antialiased }
+.wrapper{overflow:hidden}
+
+/*banner*/
+.banner{width:100%; height:auto; overflow:hidden;border-top:5px solid #FF8080}
+.b1{ background:url(../images/zs_02.jpg) center no-repeat; width:100%; height:145px;}
+.b2{ background:url(../images/zs_03.jpg) center no-repeat; width:100%; height:184px;}
+.b3{ background:url(../images/zs_04.jpg) center no-repeat; width:100%; height:147px;}
+
+/*part1*/
+.part1{width:100%; height:auto; overflow:hidden}
+.p11{ background:url(../images/zs_05.jpg) center no-repeat; width:100%; height:183px;}
+.p12{ background:url(../images/zs_06.jpg) center no-repeat; width:100%; height:370px;}
+.p13{ background:url(../images/zs_08.jpg) center no-repeat; width:100%; height:193px;}
+
+/*part2*/
+.part2{width:100%; height:auto; overflow:hidden}
+.p21{ background:url(../images/zs_09.jpg) center no-repeat; width:100%; height:143px;}
+.p22{ background:url(../images/zs_10.jpg) center no-repeat; width:100%; height:548px;}
+.p23{ background:url(../images/zs_11.jpg) center no-repeat; width:100%; height:87px;}
+
+
+/*part3*/
+.part3{width:100%; height:auto; overflow:hidden}
+.p31{ background:url(../images/zs_12.jpg) center no-repeat; width:100%; height:169px;}
+.p32{ background:url(../images/zs_14.jpg) center no-repeat; width:100%; height:336px;}
+.p33{ background:url(../images/zs_15.jpg) center no-repeat; width:100%; height:435px;}
+
+/*part4*/
+.part4{width:100%; height:auto; overflow:hidden}
+.p41{ background:url(../images/zs_16.jpg) center no-repeat; width:100%; height:179px;}
+.p42{ background:url(../images/zs_17.jpg) center no-repeat; width:100%; height:235px;}
+.p43{ background:url(../images/zs_18.jpg) center no-repeat; width:100%; height:274px;}
+
+
+
+/*part5*/
+.part5{width:100%; height:auto; overflow:hidden}
+.p51{ background:url(../images/zs_19.jpg) center no-repeat; width:100%; height:279px;}
+.p52{ background:url(../images/zs_21.jpg) center no-repeat; width:100%; height:494px;}
+
+/*part6*/
+.part6{width:100%; height:auto; overflow:hidden}
+.p61{ background:url(../images/zs_22.jpg) center no-repeat; width:100%; height:195px;}
+.p62{ background:url(../images/zs_23.jpg) center no-repeat; width:100%; height:525px;}
+
+/*part7*/
+.part7{width:100%; height:auto; overflow:hidden; background:#ff6f57;}
+.p71{ background:url(../images/zs_25.jpg) center no-repeat; width:100%; height:146px;}
+.p72{ width:1200px; height:500px;margin:10px auto}
+
+
+.lx{float:left;margin:10px 20px;}
+ul.table { overflow:hidden;margin-top:20px}
+ul.table li{margin-bottom:1px; text-align:left}
+ul.table li label{display:inline-block;width:100px;height:42px;line-height:42px;text-align:right;font-size:14px;color:#fff}
+ul.table li input{height:24px;line-height:24px;padding:9px 2px;width:440px; background:#d14129;border:none;margin-right:5px}
+
+select{width:444px;height:42px;line-height:42px;background:#d14129;border:none;margin-right:2px;}
+
+.ts{position:relative;width:700px;height:150px}
+.ts label{position:absolute;left:0px;top:0px}
+.ts textarea{width:436px;min-height:150px;padding:4px;line-height:26px;background:#d14129;border:none;margin-right:5px;position:absolute;left:103px;top:0px}
+span.tss{position:absolute;left:550px;top:10px}
+a.tj{ display:inline-block;width:444px;height:42px;line-height:42px;background:#7E0F0C;color:#fff;text-align:center}
+a.tj:hover{ background:#A01B0C}
+.bt{background:url(../images/bt.jpg) center no-repeat; width:100%; height:150px;}}

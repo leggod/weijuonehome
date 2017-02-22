@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<title>唯聚一家</title>
+<link href="css/base.css" type="text/css" rel="stylesheet"/>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+<script src="js/jquery-1.8.3.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/swipe.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div class="top">
+  <div class="t_l"><a href="xzdp.html"><img src="images/qh.png"/></a></div>
+  <div class="t_c"><span class="search"><input type="text"  class="kuang" placeholder="商品名/货号/类型"/><input type="button" class="niu"/></span></div>
+  <div class="t_r"><a class="kjdl"  href="login.html">登录</a><a href="#"  style=" display:none"><img src="images/gwc.png"/></a></div>
+</div>
+<div class="content content1">
+  <div class="main">
+  
+
+<!--<div class="banner">
+     <img src="images/banner.png"/>
+</div>
+-->
+    
+<div id='mySwipe' style='max-width:500px;margin:0 auto' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><img src="images/banner.png"/></div>
+    <div><img src="images/banner.png"/></div>
+    <div><img src="images/banner.png"/></div>
+  </div>
+</div>
+<script>
+// pure JS
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+  // startSlide: 4,
+   auto: 3000,
+   continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+   callback: function(index, element) {
+	//alert(index);
+   },
+  // transitionEnd: function(index, element) {}
+});
+
+// with jQuery
+// window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+</script>
+  
+  
+  <!--店铺公告-->
+  <div class="dpgg">
+    <p><marquee direction="left" align="left" loop="-1" scrollamount="2" scrolldelay="0" hspace="6px">唯聚一家怡海花园店欢迎您的光临！</marquee></p>
+  </div>
+  <!--分类-->
+  <ul class="fl_list">
+     <li class="i1"><a href="fenlei.html"><img src="images/i1.png"  alt="进口零食"/><p>进口零食</p></a></li>
+     <li class="i2"><a href="fenlei.html"><img src="images/i2.png"  alt="休闲食品"/><p>休闲食品</p></a></li>
+     <li class="i3"><a href="fenlei.html"><img src="images/i3.png"  alt="牛奶饮料"/><p>牛奶饮料</p></a></li>
+     <li class="i4"><a href="fenlei.html"><img src="images/i4.png"  alt="冲饮咖啡"/><p>冲饮咖啡</p></a></li>
+     <li class="i5"><a href="fenlei.html"><img src="images/i5.png"  alt="面食干粮"/><p>面食干粮</p></a></li>
+     <li class="i6"><a href="fenlei.html"><img src="images/i6.png"  alt="厨房调味"/><p>厨房调味</p></a></li>
+     <li class="i7"><a href="fenlei.html"><img src="images/i7.png"  alt="进口酒水"/><p>进口酒水</p></a></li>
+     <li class="i8"><a href="fenlei.html"><img src="images/i8.png"  alt="其他类目"/><p>其他类目</p></a></li>
+  </ul>
+  <!--推荐上商品-->
+     <ul class="pro_list">
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+        <li>
+           <a href="pro_detail.html">
+           <div class="pro_pic">
+            <img src="images/pro.jpg"/>
+            <p class="pro_title">精品进口红酒优惠特卖</p>
+           </div>
+           <div class="pro_info">
+              <span class="xj">￥45.00<span class="yj">￥52.00</span></span>
+              <span class="sczg"> </span>
+           </div>
+           </a>
+        </li>
+     </ul>
+  </div>
+</div>
+
+<ul class="foot_nav">
+   <li class="nav_sy"><a class="current"  href="index.html"><p>首页</p></a></li>
+   <li class="nav_fl"><a href="fenlei.html"><p>商品分类</p></a></li>
+   <li class="nav_dd"><a href="wddd.html"><p>我的订单</p></a></li>
+   <li class="nav_zx"><a href="grzx.html"><p>个人中心</p></a></li>
+</ul>
+</body>
+</html>
